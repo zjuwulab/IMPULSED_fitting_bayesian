@@ -2,10 +2,11 @@ function S = IMPULSED_fixDin_3(x, seqParams)
 % x = [fin, diameter, Dex];
 %       x(1)  x(2)   x(3) 
 % seqParams = [smallDelta, bigDelta, freq, Grad, bval,ramptime];
-% grad in unit of T/m
-% diameter in unit of meter
-% Din, Dex in unit of m^2/s
 % smallDelta and bigDelta in unit of second
+% grad in unit of T/m
+% bval in unit of s/m^2
+% diameter in unit of μm
+% Din, Dex in unit of μm^2/ms
 K = 10;
 %Din = 1e-9;
 x = [x(1), x(2)*1e-6, x(3)*1e-9];

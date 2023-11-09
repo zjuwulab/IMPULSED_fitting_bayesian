@@ -24,11 +24,6 @@ function out = IMPULSED_bayes(Y,f,diameter,Dex,seqParams,lim,n,prior,burns,E_set
 %       out: a struct with the fields D, f, Dstar and S0(Vx1) containing the
 %       voxelwise mean, median, mode and standard deviation of each parameter
 %
-% By Oscar Jalnefjord 2018-08-27
-%
-% If you use this function in research, please cite:
-% Gustafsson et al. 2017 Impact of prior distributions and central tendency 
-% measures on Bayesian intravoxel incoherent motion model fitting, MRM
 
 
 % N = number of iterations
